@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <title>LATIHAN JSON</title>
+  </head>
+  <body>
+    <h2>sedang latihan membuat percadangan switch case</h2>
+    <p id="aic"></p>
+</body>
+
+<script>
+
+let mahasiswa = {
+    namalengkap: "Ricky Noviansyah",
+    tahun: 2022,
+    
+    toString() {
+      return '{namalengkap: "${this.namalengkap}",
+      tahun: ${this.tahun}}';
+    }
+  };
+
+console.log(mahasiswa);
+</script>
+</html>

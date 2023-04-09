@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>Belajar JS</title>
+    </head>
+
+    <body>
+        <h2>sedang latihan belajar membuat percabangan IF/ELSE</h2>
+        <p id="aic"></p>
+    </body>
+
+    <script>
+
+        const jam = new Date().getHours();
+        let waktu;
+
+if (jam < 18) {
+    waktu = "selamat pagi";
+} else {
+  waktu = "selamat malam"
+}
+
+         document.getElementById("aic").innerHTML =
+         "waktu sekarang " + waktu;
+    </script>
+</html>
